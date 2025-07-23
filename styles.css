@@ -33,16 +33,19 @@ header, main {
 
 }
 
-header {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 section {
     margin: 120px 0;
 }
+
+button {
+    font-size: 18px;
+    color: wheat;
+    background-color: var(--primary);
+    padding: 20px 7px;
+    border: none;
+}
+
 /* nav */
 nav {
     display: flex;
@@ -81,8 +84,10 @@ nav {
 
 /* hero section */
 .hero {
+    margin-top: 280px;
     display: flex;
-    align-items: center;
+    align-items: end;
+
 }
 
 .left-half h1 {
@@ -98,4 +103,48 @@ nav {
 .left-half span{
     color: var(--primary);
 
+}
+
+/* main */
+main {
+    text-align: center;
+}
+
+.text-content h1 {
+    font-size: 50px;
+}
+
+.text-content h1 span{
+    color: var(--primary);
+}
+
+.text-content p {
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+    padding: 20px 0;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    font-size: 20px;
+}
+.card button {
+    width: 100%;
+    margin: 17px 0;
 }

@@ -1,7 +1,4 @@
 @media screen and (max-width: 576px) {
-    section {
-        /* margin: 300px 0; */
-    }
 
     header {
         margin-bottom: 50px;
@@ -40,6 +37,15 @@
     }
     .right-half img{
         width: 100%;
+    }
+
+    /* our plants */
+    main {
+        width: 93%;
+        margin: 0 auto;
+    }
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
     }
     
 }
