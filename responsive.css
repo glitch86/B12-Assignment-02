@@ -1,0 +1,45 @@
+@media screen and (max-width: 576px) {
+    section {
+        /* margin: 300px 0; */
+    }
+
+    header {
+        margin-bottom: 50px;
+    }
+    nav {
+        width: 93%;
+        margin: auto;
+        align-items: center;
+    }
+    .nav-link {
+        display: none;
+    }
+    
+    .hero {
+        margin: 40px 0;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .left-half {
+        width: 93%;
+        margin: 0 auto;
+
+
+    }
+    .left-half h1 {
+        font-size: 35px;
+        max-width: 60%;
+    }
+
+    .left-half p {
+        font-size: 19px;
+    }
+    .right-half {
+        width: 100%;
+    }
+    .right-half img{
+        width: 100%;
+    }
+    
+}

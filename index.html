@@ -3,9 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font embed -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/eae2f2fff1.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./responsive.css">
     <title>Responsive Flowers</title>
 </head>
-<body>
-    <h2>hey</h2>
+<body class="inter-normal">
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./assets/logo.png" alt="logo">
+            </div>
+            <div class="nav-links">
+                <div class="nav-link bold">
+                    Home
+                </div>
+                <div class="nav-link gray">
+                    Shop
+                </div>
+                <div class="nav-link gray">
+                    About us
+                </div>
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>
+                        Cart ($56)
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <section class="hero">
+
+            <div class="left-half">
+                <h1 class="noto-serif-normal">
+                    ALWAYS <span>FRESH FLOWERS</span>
+                </h1>
+                <p class="gray">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
+                </p>
+            </div>
+            <div class="right-half">
+                <img src="./assets/hero-flower.png" alt="flowers">
+            </div>
+
+
+        </section>
+    </header>
+    <main> 
+        <section class="our-plants">
+            <div class="text-content">
+                <h1><span>Our</span> Plants</h1>
+                <p>Indulge your senses with the beauty and of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="./assets/sample-flower-image.png" alt="flower">
+
+                    <p>Lily Blossom</p>
+                    <p>20 USD</p>
+
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
 </body>
 </html>
