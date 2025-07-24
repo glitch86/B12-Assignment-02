@@ -279,3 +279,47 @@ main {
 .zabo .texts a {
     font-size: 22px;
 }
+
+/* burnch */
+
+.burnch {
+    height: 530px;
+    width: 100%;
+    background: url("./assets/news-letter-bg.png") center / cover no-repeat;
+
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.burnch h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.input-container {
+    width: 100%;
+}
+
+.burnch input {
+    height: 50px;
+    width: 55%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.burnch button {
+    font-size: 18px;
+    height: 50px;
+    padding: 15px 55px;
+
+    margin-left: -5px;
+}
