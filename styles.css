@@ -46,6 +46,9 @@ button {
     border: none;
 }
 
+h2 {
+    font-family: noto-serif;
+}
 /* nav */
 nav {
     display: flex;
@@ -80,6 +83,12 @@ nav {
 
 .cart {
     font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.cart span {
+    font-size: 20px;
 }
 
 /* hero section */
@@ -110,11 +119,11 @@ main {
     text-align: center;
 }
 
-.text-content h1 {
+.text-content h2 {
     font-size: 50px;
 }
 
-.text-content h1 span{
+.text-content h2 span{
     color: var(--primary);
 }
 
@@ -147,4 +156,40 @@ main {
 .card button {
     width: 100%;
     margin: 17px 0;
+}
+
+/* flower lovers */
+
+.plant-lovers {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.left-side {
+    position: relative;
+}
+.left-side .badge{
+    position: absolute;
+    right: -19%;
+    top: -16%;
+    width: 250px;
+}
+.right-side {
+    text-align: left;
+}
+
+.right-side h2 {
+    font-size: 50px;
+    width: 70%;
+}
+
+.right-side ul { 
+    color: #8987A1;
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+.right-side li {
+    margin: 20px 0;
 }

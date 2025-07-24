@@ -6,7 +6,7 @@
     nav {
         width: 93%;
         margin: auto;
-        align-items: center;
+        align-items: end;
     }
     .nav-link {
         display: none;
@@ -25,12 +25,12 @@
 
     }
     .left-half h1 {
-        font-size: 35px;
-        max-width: 60%;
+        font-size: 27px;
+        max-width: 70%;
     }
 
     .left-half p {
-        font-size: 19px;
+        font-size: 13px;
     }
     .right-half {
         width: 100%;
@@ -44,8 +44,44 @@
         width: 93%;
         margin: 0 auto;
     }
+    .text-content h2 {
+        font-size: 27px;
+    }
+
+    .text-content p {
+        font-size: 12px;
+    }
     .cards {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+    .card p{
+        font-size: 12px;
+    }
+    /* plant lovers */
+    .plant-lovers {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .left-side {
+        width: 100%;
+    }
+
+    .left-side .store {
+        max-width: 100%;
+    }
+
+    .left-side .badge {
+        display: none;
+    }
+
+    .right-side h2 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .right-side ul {
+        padding-left: 20px;
+        font-size: 11px;
+    }
 }
