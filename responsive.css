@@ -57,6 +57,10 @@
     .card p{
         font-size: 12px;
     }
+    
+    .card button {
+        margin: 14px 0;
+    }
     /* plant lovers */
     .plant-lovers {
         flex-direction: column;
