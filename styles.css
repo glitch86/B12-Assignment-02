@@ -314,6 +314,7 @@ main {
     width: 55%;
     padding: 20px;
     font-size: 18px;
+    border: none;
 }
 
 .burnch button {
@@ -323,3 +324,41 @@ main {
 
     margin-left: -5px;
 }
+
+/* footer */
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    gap: 130px;
+
+    padding: 0 100px 70px;
+}
+
+footer .links {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+footer .links  a {
+    color: #8987A1;
+    text-decoration: none;
+}
+
+footer .info p {
+    font-size: 22px;
+    color: #8987A1;
+}
+
+footer .icons{
+    align-self: self-start;
+    display: flex;
+    gap: 13px;
+    align-items: center;
+
+}
+
+/* footer .icon {
+    margin: 0 13px;
+} */
